@@ -1,0 +1,1 @@
+{"name":"Local: Wolfs_Birds","url":"c:\\Users\\User\\Documents\\my document\\Wolfs_Birds.cpp","tests":[{"id":1765030655413,"input":"4\n3\n000\n2\n11\n5\n10100\n4\n0100\n","output":"3\n0\n0\n1\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\User\\Documents\\my document\\Wolfs_Birds.cpp","group":"local","local":true}

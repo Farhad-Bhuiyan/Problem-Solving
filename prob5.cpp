@@ -2,16 +2,7 @@
 using namespace std;
 int main()
 {
-    long long n;
-    cin >> n;
-    map<long long, long long> m;
-    for (int i = 0; i < n; i++)
-    {
-        long long y;
-        cin >> y;
-        m[y]++;
-    }
-    cout << m.size() << endl;
+    int ch= pow(4,0);
+    cout << ch;
     return 0;
 }
-

@@ -1,0 +1,1 @@
+{"name":"Local: Forest","url":"c:\\Users\\User\\Documents\\my document\\Forest.cpp","tests":[{"id":1774625983429,"input":"5 3\n2 4 1 5 3\n1 3\n2 5\n4 4","output":"7\n13\n5\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\User\\Documents\\my document\\Forest.cpp","group":"local","local":true}

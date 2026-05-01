@@ -1,0 +1,1 @@
+{"name":"Local: Room_Allocation","url":"c:\\Users\\User\\Documents\\my document\\Room_Allocation.cpp","tests":[{"id":1765124450497,"input":"2\n1\n1\n4\n4 4 4 4","output":"1\n8"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\User\\Documents\\my document\\Room_Allocation.cpp","group":"local","local":true}

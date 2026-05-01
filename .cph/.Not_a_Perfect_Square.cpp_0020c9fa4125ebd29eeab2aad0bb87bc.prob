@@ -1,0 +1,1 @@
+{"name":"Local: Not_a_Perfect_Square","url":"c:\\Users\\User\\Documents\\my document\\Not_a_Perfect_Square.cpp","tests":[{"id":1774967375707,"input":"8\n1 2 3 4 5 9 10 16","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\User\\Documents\\my document\\Not_a_Perfect_Square.cpp","group":"local","local":true}

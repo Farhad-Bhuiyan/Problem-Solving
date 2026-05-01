@@ -1,0 +1,1 @@
+{"name":"Local: Gun_Master","url":"c:\\Users\\User\\Documents\\my document\\Gun_Master.cpp","tests":[{"id":1765126067941,"input":"4\n4 2\n2 1 3 4\n4 1\n2 3 4 1\n3 5\n4 3 2\n6 2\n3 2 3 2 3 2","output":"1\n2\n0\n6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\User\\Documents\\my document\\Gun_Master.cpp","group":"local","local":true}

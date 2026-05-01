@@ -1,0 +1,1 @@
+{"name":"Local: Hattrick","url":"c:\\Users\\User\\Documents\\my document\\Hattrick.cpp","tests":[{"id":1765124968509,"input":"4\n1 2 W 0 W 6\nW W W 6 6 6\nW 4 W 0 W 6\n1 W W W W 0","output":"NO\nYES\nNO\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\User\\Documents\\my document\\Hattrick.cpp","group":"local","local":true}

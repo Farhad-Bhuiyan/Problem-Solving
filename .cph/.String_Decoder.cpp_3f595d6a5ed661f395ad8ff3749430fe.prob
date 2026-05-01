@@ -1,0 +1,1 @@
+{"name":"Local: String_Decoder","url":"c:\\Users\\User\\Documents\\my document\\String_Decoder.cpp","tests":[{"id":1774626689140,"input":"2\na2b3c1\nx1y0z2","output":"aabbbc\nxzz\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\User\\Documents\\my document\\String_Decoder.cpp","group":"local","local":true}

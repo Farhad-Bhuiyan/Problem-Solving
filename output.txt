@@ -1,0 +1,6 @@
+Enter number of data bits: Enter data bits (LSB first): 
+Generated Hamming Code: 1 1 0 0 1 1 0 
+
+Enter number of received bits: Enter received bits (1-based index): 
+Error detected at position: 5
+Corrected Code: 1 0 0 1 0 1 1 
