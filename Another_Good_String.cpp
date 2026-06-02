@@ -13,14 +13,38 @@ int main()
         string s;
         cin >> s;
         int ans=1,c=0;
-        for(int i=0;i<n-1;i++)
+        vector<int>l(n),an;
+        l[0]=1;
+        for(int i=1;i<n;i++)
         {
-            if(a[i]==a[i+1])c++;
-            else 
-            {
-                ans=max(ans,c);
-            }
+            if(s[i]==s[i-1])l[i]=l[i-1]+1;
+            else l[i]=1;
+            ans=max(ans,l[i]);
         }
+        an.push_back(ans);
+        int ans2=l[n-1];
+        while(q--)
+        {
+            char x;
+            cin >> x;
+            if(x==s[s.size()-1])
+            {
+                ans2++;
+                ans=max(ans,ans2);
+                an.push_back(ans);
+            }
+            else
+            {
+                ans2=1;
+                an.push_back(ans);
+            }
+            s.push_back(x);
+        }
+        for(int i:an)
+        {
+            cout << i << " ";
+        }
+        cout << endl;
     }
     return 0;
 }
