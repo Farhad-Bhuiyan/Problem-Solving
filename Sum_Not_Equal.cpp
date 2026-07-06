@@ -8,27 +8,26 @@ int main()
     {
         int n;
         cin >> n;
-        vector<int> v(n);
+        vector<pair<int,int>> v(n);
+        int c=0;
         for (int i = 0; i < n; i++)
         {
-            cin >> v[i];
+            int x;
+            cin >> x;
+            v[i]={x,i+1};
+            if(x==0)c++;
         }
-        if (v[0] + v[1] != v[2])
+        if(c==n)
         {
-            cout << "1 2 3" << endl;
+            cout << -1 << endl;
+            continue;
         }
-        else if (v[0] + v[2] != v[1])
+        sort(v.rbegin(),v.rend());
+        for(int i=0;i<3;i++)
         {
-            cout << "1 3 2" << endl;;
+            cout << v[i].second << " ";
         }
-        else if (v[1] + v[2] != v[0])
-        {
-            cout << "2 3 1" << endl;;
-        }
-        else
-        {
-            cout << "-1" << endl;
-        }
+        cout << endl;       
     }
     return 0;
 }
