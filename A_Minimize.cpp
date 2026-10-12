@@ -2,14 +2,15 @@
 using namespace std;
 int main()
 {
-    int t;
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    int t=1;
     cin >> t;
     while(t--)
     {
-        int a,b;
-        cin >> a >> b;
-        int c=(-a+b)/2;
-        cout << (c-a)+(b-c) << endl;
+        long long a,b;
+        cin >> a >> b ;
+        cout << b-a << endl;
     }
     return 0;
 }
